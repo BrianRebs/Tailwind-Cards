@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.3/tailwind.min.css">
+    <title>Tailwind Cards</title>
+</head>
+<body>
+    <!-- background -->
+<div class="min-h-screen bg-gray-200 flex items-center justify-center flex-wrap" >
+
+    <!-- card 1-->
+    <div id="card" class="relative m-4 ">
+        <!--outline backgroun -->
+          <div class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2"></div>
+        <!-- content -->
+          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative">
+              <div class="bg-green-300 h-3 w-16 ml-auto"></div>
+              <span class="text-7xl">25</span>
+              <p class="text-gray-500">The outline is positioned absolute and before the div content, the relation is to the parent div. The elements order is important to the stack starting with the foreground</p>
+              <div class="">
+                  <a href="">Contact Us</a>
+                  <!-- <svg></svg> -->
+               </div>
+          </div>
+      </div>
+
+      <!-- card 1-->
+    <div id="card" class="relative m-4 ">
+        
+        <!-- content -->
+          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative">
+              <div class="bg-green-300 h-3 w-16 ml-auto"></div>
+              <span class="text-7xl">25</span>
+              <p class="text-gray-500">The outline is positioned absolute and before the div content, the relation is to the parent div. The elements order is important to the stack starting with the foreground</p>
+              <div class="">
+                  <a href="">Contact Us</a>
+                  <!-- <svg></svg> -->
+               </div>
+          </div>
+          <!--outline backgroun -->
+          <div class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2 p-8">
+            <div class="bg-gray-100 h-3 w-16 ml-auto mt-2 border border-gray-700"></div>
+            <span class="text-7xl">25</span>
+            <p class="text-gray-500">Again the elements order is important due to positioning. The outline is positioned after the div content, the relation is to the parent div. starting with the background</p>
+          </div>
+      </div>
+
+      <!-- card 1-->
+    <div id="card" class="relative m-4 ">
+        <!--outline backgroun -->
+          <div class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2"></div>
+        <!-- content -->
+          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative">
+              <div class="bg-green-300 h-3 w-16 ml-auto"></div>
+              <span class="text-7xl">25</span>
+              <p class="text-gray-500">The outline is positioned absolute and before the div content, the relation is to the parent div. The elements order is important to the stack starting with the foreground</p>
+              <div class="">
+                  <a href="">Contact Us</a>
+                  <!-- <svg></svg> -->
+               </div>
+          </div>
+      </div>
+
+</body>
+</html>
