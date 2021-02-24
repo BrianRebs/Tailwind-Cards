@@ -14,16 +14,15 @@
     <!-- card 1-->
     <div id="card" class="relative m-4 ">
         <!--outline backgroun -->
-          <div class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2"></div>
+          <div id="outline" class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2"></div>
         <!-- content -->
-          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative">
+          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative space-y-7" >
               <div class="bg-green-300 h-3 w-16 ml-auto"></div>
               <span class="text-7xl">25</span>
               <p class="text-gray-500">The outline is positioned absolute and before the div content, the relation is to the parent div. The elements order is important to the stack starting with the foreground</p>
-              <div class="">
-                  <a href="">Contact Us</a>
-                  <!-- <svg></svg> -->
-               </div>
+                  <a class="flex items-center"href="#"><span>Contact Us </span> <svg class="w-4 h-4 ml-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                  </svg></a>
           </div>
       </div>
 
@@ -31,7 +30,7 @@
     <div id="card" class="relative m-4 ">
         
         <!-- content -->
-          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative">
+          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative space-y-7">
               <div class="bg-green-300 h-3 w-16 ml-auto"></div>
               <span class="text-7xl">25</span>
               <p class="text-gray-500">The outline is positioned absolute and before the div content, the relation is to the parent div. The elements order is important to the stack starting with the foreground</p>
@@ -41,22 +40,25 @@
                </div>
           </div>
           <!--outline backgroun -->
-          <div class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2 p-8">
+          <div  id="outline" class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2 p-8 space-y-7">
             <div class="bg-gray-100 h-3 w-16 ml-auto mt-2 border border-gray-700"></div>
             <span class="text-7xl">25</span>
             <p class="text-gray-500">Again the elements order is important due to positioning. The outline is positioned after the div content, the relation is to the parent div. starting with the background</p>
+            <a class="flex items-center"href="#"><span>Contact Us </span> <svg class="w-4 h-4 ml-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+              </svg></a>
           </div>
       </div>
 
       <!-- card 1-->
     <div id="card" class="relative m-4 ">
         <!--outline backgroun -->
-          <div class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2"></div>
+          <div id="outline" class="bg-green-300 absolute rounded-xl h-full w-full -left-2 -top-2 opacity-50"></div>
         <!-- content -->
-          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg relative">
+          <div id="content" class="p-8 w-72 bg-gray-100 rounded-xl shadow-lg space-y-7">
               <div class="bg-green-300 h-3 w-16 ml-auto"></div>
               <span class="text-7xl">25</span>
-              <p class="text-gray-500">The outline is positioned absolute and before the div content, the relation is to the parent div. The elements order is important to the stack starting with the foreground</p>
+              <p class="text-gray-500">The content div is now lacking a position , so the outline div is on top with position absolute. The elements order of the stack element was not needed to be moved </p>
               <div class="">
                   <a href="">Contact Us</a>
                   <!-- <svg></svg> -->
